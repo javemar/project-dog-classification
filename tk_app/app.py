@@ -7,8 +7,8 @@ from PIL import Image, ImageTk
 from classifier import run_app_get_labels
 
 
-START_IMG = r"imgs\descarga.png"
-TEMPORAL_IMG_PATH = r"imgs\temporal20190812.png"
+START_IMG = r"imgs/descarga.png"
+TEMPORAL_IMG_PATH = r"imgs/temporal20190812.png"
 
 def create_temporal_image(path, size=(224,224) , 
 							final_path=	TEMPORAL_IMG_PATH):
